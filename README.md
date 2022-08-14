@@ -17,3 +17,5 @@ tracked files: These files have been added to the Git repository and can be in v
 An unmodified file is one that has had no new changes since the last version of the files was added to the Git repo.
 A modified file is one that is different from the last one Git has saved.
 A staged file is one that a user has designated as part of a future commit (usually through use of the git add command). We can think of these as files which have lights shining upon them.
+
+Rule of Thumb: If you commit, you can always revert your code or change it. However, if you don’t commit, you won’t be able to get old versions back. So commit often!
